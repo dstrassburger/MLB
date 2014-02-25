@@ -1,7 +1,5 @@
 library(XML)
 
-#new comment 
-
 xmlurl<-"http://gd2.mlb.com/components/game/mlb/year_2012/month_06/day_11/miniscoreboard.xml"
 
 doc<-xmlTreeParse(xmlurl,useInternalNodes=TRUE)
